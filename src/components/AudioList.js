@@ -10,7 +10,7 @@ function AudioList({ audios }) {
             <div className="card-body">
               <h5 className="card-title">{audio.title}</h5>
               <Link to={`/audio/${audio.id}`} className="btn btn-primary">
-                Listen Now
+                재생
               </Link>
             </div>
           </div>
