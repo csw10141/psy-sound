@@ -15,7 +15,7 @@ function Home() {
 
   return (
     <div className="container mt-4">
-      {/* <h2 className="text-center mb-4">심리를 심리하다</h2> */}
+      {/* <h2 className="text-center mb-4">Available Audios</h2> */}
       <AudioList audios={audios} />
     </div>
   );
