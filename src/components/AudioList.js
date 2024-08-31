@@ -8,10 +8,9 @@ function AudioList({ audios }) {
         <div key={audio.id} className="col-md-4 mb-4">
           <div className="card h-100">
             <div className="card-body">
+            <Link to={`/audio/${audio.id}`}>
               <h5 className="card-title">{audio.title}</h5>
-              <Link to={`/audio/${audio.id}`} className="btn btn-primary">
-                재생
-              </Link>
+            </Link>
             </div>
           </div>
         </div>
