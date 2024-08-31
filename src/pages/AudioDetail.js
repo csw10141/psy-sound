@@ -23,12 +23,12 @@ function AudioDetail() {
         <div className="col-md-4">
           <img src={audio.img} alt={audio.title} className="img-fluid rounded" />
         </div>
-        <p></p>
+        <p>&nbsp;</p>
         <div className="col-md-8">
           <h2>{audio.title}</h2>
           <p>{audio.description}</p>
           <p>{audio.subdescription}</p>
-          <p></p>
+          <p>&nbsp;</p>
         </div>
       </div>
       <AudioPlayer src={audio.url} />
