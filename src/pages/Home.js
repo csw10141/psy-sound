@@ -14,8 +14,8 @@ function Home() {
   ]);
 
   return (
-    <div>
-      <h2>Available Audios</h2>
+    <div className="container mt-4">
+      <h2 className="text-center mb-4">Available Audios</h2>
       <AudioList audios={audios} />
     </div>
   );

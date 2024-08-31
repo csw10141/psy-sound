@@ -4,10 +4,16 @@ import '../styles.css';
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <h1>Audio Streaming</h1>
-      <div>
-        <Link to="/">Home</Link>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="container-fluid">
+        <Link className="navbar-brand" to="/">Audio Streaming</Link>
+        <div className="collapse navbar-collapse">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <Link className="nav-link" to="/">Home</Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   );

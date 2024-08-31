@@ -16,8 +16,8 @@ function AudioDetail() {
   }[id];
 
   return (
-    <div>
-      <h2>{audio.title}</h2>
+    <div className="container mt-4">
+      <h2 className="text-center mb-4">{audio.title}</h2>
       <AudioPlayer src={audio.url} />
     </div>
   );
