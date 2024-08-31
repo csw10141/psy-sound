@@ -18,17 +18,12 @@ function AudioDetail() {
   const audio = audioData[id];
 
   return (
-    <div className="container mt-4">
-      <div className="row">
-        <div className="col-md-4">
-          <img src={audio.img} alt={audio.title} className="img-fluid rounded" />
-        </div>
-        <p>&nbsp;</p>
-        <div className="col-md-8">
+    <div className="audio-detail-page" style={{ backgroundImage: `url(${audio.img})` }}>
+      <div className="overlay">
+        <div className="container mt-4 text-white">
           <h2>{audio.title}</h2>
           <p>{audio.description}</p>
           <p>{audio.subdescription}</p>
-          <p>&nbsp;</p>
         </div>
       </div>
       <AudioPlayer src={audio.url} />
