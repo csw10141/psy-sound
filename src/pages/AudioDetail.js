@@ -13,7 +13,7 @@ function AudioDetail() {
     6: { title: "07_Tower of BABLE", url: "/audio/sample7.mp3", img: "/images/sample1.jpg",description: "This is the first sample audio description."},
     7: { title: "08_달콤한 유혹", url: "/audio/sample8.mp3", img: "/images/sample1.jpg",description: "This is the first sample audio description."},
     8: { title: "12_사람의 마음", url: "/audio/sample12.mp3", img: "/images/sample1.jpg",description: "This is the first sample audio description."},
-  }[id];
+  };
 
   const audio = audioData[id];
 
