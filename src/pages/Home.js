@@ -41,7 +41,7 @@ function Home() {
   ]);
 
   return (
-    <div className="container mt-4" style={{backgroundImage:"/images/bg.png"}}>
+    <div className="container mt-4" style={{backgroundImage:"/images/bg.png", backgroundSize:"100%"}}>
       {/* <h2 className="text-center mb-4">Available Audios</h2> */}
       <AudioList audios={audios} />
     </div>
