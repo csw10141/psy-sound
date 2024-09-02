@@ -45,7 +45,7 @@ function AudioDetail() {
   const audio = audioData[id];
 
   return (
-    <div className="audio-detail-page" style={{ backgroundImage: `url(${audio.img})` }}>
+    <div className="audio-detail-page" style={{ backgroundImage: `url(${audio.img})`, backgroundSize: '100%' }}>
       <div className="overlay">
         <div className="container mt-4 text-white">
           <h2>{audio.title}</h2>
